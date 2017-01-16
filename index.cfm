@@ -6,13 +6,13 @@
 </head>
 <cfparam name="content" default="" />
 <cfif content neq ''>
-	<cffile action="read" file="#expandpath('/')#includes/#content#" variable="content" />
+	<cffile action="read" file="#expandpath('.')#includes/#content#" variable="content" />
 </cfif>
 
 <cfdirectory directory="#expandpath('.')#" name="alldirs" recurse="no" type="dir">
-<link href="/includes/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
-<link href="/includes/css/class.css" type="text/css" rel="stylesheet">
-<script src="/includes/js/class.js" type="text/javascript"></script>
+<link href="includes/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
+<link href="includes/css/class.css" type="text/css" rel="stylesheet">
+<script src="includes/js/class.js" type="text/javascript"></script>
 <body>
 	<div id="wrapper" class="col-lg-12">
     	<cfoutput>
