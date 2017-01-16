@@ -6,7 +6,7 @@
 </head>
 <cfparam name="content" default="" />
 <cfif content neq ''>
-	<cffile action="read" file="#expandpath('.')#includes/#content#" variable="content" />
+	<cffile action="read" file="#expandpath('.')#/includes/#content#" variable="content" />
 </cfif>
 
 <cfdirectory directory="#expandpath('.')#" name="alldirs" recurse="no" type="dir">
