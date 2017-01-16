@@ -8,7 +8,7 @@
 <cfif content neq ''>
 	<cffile action="read" file="#expandpath('/')#includes/#content#" variable="content" />
 </cfif>
-<cfinclude template="/includes/names.cfm" />
+
 <cfdirectory directory="#expandpath('.')#" name="alldirs" recurse="no" type="dir">
 <link href="/includes/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
 <link href="/includes/css/class.css" type="text/css" rel="stylesheet">
