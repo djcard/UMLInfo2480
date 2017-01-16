@@ -1,10 +1,10 @@
 {
-    "name":"My Package",
-    "version":"0.0.0",
-    "author":"",
+    "name":"UML INFO 240 Base Package",
+    "version":"1.0.0",
+    "author":"Dan Card",
     "location":"",
     "directory":"",
-    "createPackageDirectory":true,
+    "createPackageDirectory":false,
     "packageDirectory":"",
     "homepage":"",
     "documentation":"",
@@ -13,8 +13,8 @@
         "URL":""
     },
     "bugs":"",
-    "slug":"my-package",
-    "shortDescription":"A sweet package",
+    "slug":"umlinfo240base",
+    "shortDescription":"The base package for UML Info 240",
     "description":"",
     "instructions":"",
     "changelog":"",
@@ -39,7 +39,7 @@
         }
     ],
     "contributors":[
-        
+        Dan Card <djcard@gmail.com>
     ],
     "dependencies":{
         
