@@ -1,7 +1,7 @@
 {
     "name":"UML INFO 240 Base Package",
     "version":"1.0.0",
-    "author":"Dan Card",
+    "author":"Dan Card <daniel_card@uml.edu>",
     "location":"",
     "directory":"",
     "createPackageDirectory":false,
@@ -39,7 +39,7 @@
         }
     ],
     "contributors":[
-        Dan Card <djcard@gmail.com>
+        "Dan Card <djcard@gmail.com>"
     ],
     "dependencies":{
         
