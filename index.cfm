@@ -1,8 +1,11 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>UML Database Course - name</title>
+	<meta charset="utf-8">
+	<title>UML Database Course - name</title>
+    <link href="includes/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="includes/css/class.css" type="text/css" rel="stylesheet">
+    <script src="includes/js/class.js" type="text/javascript"></script>
 </head>
 <cfparam name="content" default="" />
 <cfif content neq ''>
@@ -10,9 +13,7 @@
 </cfif>
 
 <cfdirectory directory="#expandpath('.')#" name="alldirs" recurse="no" type="dir">
-<link href="includes/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
-<link href="includes/css/class.css" type="text/css" rel="stylesheet">
-<script src="includes/js/class.js" type="text/javascript"></script>
+
 <body>
 	<div id="wrapper" class="col-lg-12">
     	<cfoutput>
@@ -25,7 +26,7 @@
 		
         <div id="topheader">Class 90-248 Web Site Database Implementation - #trim(session.firstname)# #trim(session.lastname)#'s Table of Contents Page</div></cfoutput>
 		<div id="mainarea">
-			<div id="leftgutter" class="col-lg-2">
+			<div id="leftgutter" class="col-lg-3 col-md-3 col-sm-3">
 				<ul class="nav nav-stacked">
 					<li style="cursor:pointer"><a onclick="getarticle('aboutpage.cfm')" target="_blank">What is this page?</a></li>
 					<cfoutput query="alldirs">
@@ -43,7 +44,7 @@
 
 				</ul>
 			</div>
-			<div id="center" class="col-lg-9">
+			<div id="center" class="col-lg-9 col-md-9 col-sm-9">
             	<cfoutput>
 					<cfif content neq ''>
     	            	#content#
