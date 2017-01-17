@@ -24,7 +24,7 @@
 				</ul>
 			</div>
 		
-        <div id="topheader">Class 90-248 Web Site Database Implementation - #trim(session.firstname)# #trim(session.lastname)#'s Table of Contents Page</div></cfoutput>
+        <div id="topheader">Class INFO 2480 Web Site Database Implementation - Local Host Table of Contents Page</div></cfoutput>
 		<div id="mainarea">
 			<div id="leftgutter" class="col-lg-3 col-md-3 col-sm-3">
 				<ul class="nav nav-stacked">
