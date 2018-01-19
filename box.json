@@ -4,7 +4,7 @@
     "author":"Dan Card <daniel_card@uml.edu>",
     "location":"",
     "directory":"renameToYourFolder",
-    "createPackageDirectory":true,
+    "createPackageDirectory":false,
     "packageDirectory":"",
     "homepage":"",
     "documentation":"",
