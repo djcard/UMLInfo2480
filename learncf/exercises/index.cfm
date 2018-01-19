@@ -20,6 +20,8 @@
             </div>
             <div class="col-md-9">
                 <cfif isdefined('p')>
+                    <!--- Pssst! Look at introPage.cfm. Seeifyou can figure out what the cfinclude tag does
+                     how it knows to open introPage.cfm.---->
                     <cfinclude template="#p#.cfm" />
                 </cfif>
             </div>
@@ -28,12 +30,5 @@
             My Footer
         </div>
     </div>
-
-
-
-
 </body>
-
-
-
 </html>
