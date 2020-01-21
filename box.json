@@ -3,7 +3,7 @@
     "version":"1.0.0",
     "author":"Dan Card <daniel_card@uml.edu>",
     "location":"",
-    "directory":"renameToYourFolder",
+    "directory":"ThisIsTheRootOfTheWebSite",
     "createPackageDirectory":false,
     "packageDirectory":"",
     "homepage":"http://comweb.uml.edu",
