@@ -1,2 +1,2 @@
 # UMLInfo2480
-The Base Package for the UML Website Database Implementation Class
+THis is the folder where to which you need to make the root of your project. 
