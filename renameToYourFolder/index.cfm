@@ -3,7 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>UML Database Course - name</title>
-    <link href="includes/bootstrap/css/bootstrap.css" type="text/css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link href="includes/css/class.css" type="text/css" rel="stylesheet">
     <script src="includes/js/class.js" type="text/javascript"></script>
 </head>
@@ -15,7 +17,7 @@
 <cfdirectory directory="#expandpath('.')#" name="alldirs" recurse="no" type="dir">
 
 <body>
-	<div id="wrapper" class="col-lg-12">
+	<div id="wrapper" class="container">
     	<cfoutput>
 			<div id="adminnav" style="float:none; clear:both; height:50px; ">
 				<ul class="nav nav-pills" style="margin-left:auto; display:block; ">
@@ -25,13 +27,14 @@
 			</div>
 		
         <div id="topheader">Class INFO 2480 Web Site Database Implementation - Local Host Table of Contents Page</div></cfoutput>
-		<div id="mainarea">
-			<div id="leftgutter" class="col-lg-3 col-md-3 col-sm-3">
-				<ul class="nav nav-stacked">
-					<li style="cursor:pointer"><a onclick="getarticle('aboutpage.cfm')" target="_blank">What is this page?</a></li>
+		<div id="mainarea" class="row">
+			<div id="leftgutter" class="col-lg-3">
+				<ul class="nav flex-column">
+					<li class="nav-item"><a class="nav-link" onclick="getarticle('aboutpage.cfm')" target="_blank">What is this page?</a></li>
 					<cfoutput query="alldirs">
 						<cfif name neq 'includes'>
-							<li><a href="#name#" target="_blank">#name#</a></li>
+							<li class="nav-item">
+									<a href="#name#" class="nav-link" target="_blank">#name#</a></li>
 						</cfif>
 					</cfoutput>
 				<li><hr/></li>
@@ -44,7 +47,7 @@
 
 				</ul>
 			</div>
-			<div id="center" class="col-lg-9 col-md-9 col-sm-9">
+			<div id="center" class="col-lg-9">
             	<cfoutput>
 					<cfif content neq ''>
     	            	#content#
@@ -53,5 +56,8 @@
             </div>
 		</div>
 	</div>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+					integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+					crossorigin="anonymous"></script>
 </body>
 </html>
