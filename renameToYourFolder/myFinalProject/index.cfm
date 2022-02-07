@@ -25,7 +25,7 @@
                         <!---Which holds the genrenav                    <cfinclude template="genrenav.cfm">--->
 
                     <!--- The other is the div#center --->
-                        <!--- Which holds (to starrt with) <cfinclude temaplate="carousel.cfm"> --->
+                        <!--- Which holds (to start with) <cfinclude temaplate="carousel.cfm"> --->
 
     </body>
 </html>

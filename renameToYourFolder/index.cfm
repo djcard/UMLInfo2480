@@ -28,9 +28,9 @@
 		
         <div id="topheader">Class INFO 2480 Web Site Database Implementation - Local Host Table of Contents Page</div></cfoutput>
 		<div id="mainarea" class="row">
-			<div id="leftgutter" class="col-lg-3">
+			<div id="leftgutter" class="col-2">
 				<ul class="nav flex-column">
-					<li class="nav-item"><a class="nav-link" onclick="getarticle('aboutpage.cfm')" target="_blank">What is this page?</a></li>
+					<li class="nav-item" style="cursor:pointer"><a onclick="getarticle('aboutpage.cfm')" target="_blank">What is this page?</a></li>
 					<cfoutput query="alldirs">
 						<cfif name neq 'includes'>
 							<li class="nav-item">
@@ -47,7 +47,7 @@
 
 				</ul>
 			</div>
-			<div id="center" class="col-lg-9">
+			<div id="center" class="col-9">
             	<cfoutput>
 					<cfif content neq ''>
     	            	#content#
